@@ -1,0 +1,14 @@
+#!/bin/bash
+echo"enter the first number"
+read m
+echo"enter the second number"
+read n
+echo"enter the third number"
+read o
+if[$m -gt$n]&&[$m -gt$o]; then 
+  echo"largest number is $m"
+elif[$n -gt$m]&&[$n -gt$o]; then
+  echo"largest number is $n"
+else
+  echo"largest number is $o"
+fi
